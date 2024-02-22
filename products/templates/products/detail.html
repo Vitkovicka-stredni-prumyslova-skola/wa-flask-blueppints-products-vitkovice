@@ -48,15 +48,15 @@
             <div class="container px-4 px-lg-5 my-5">
                 <div class="row gx-4 gx-lg-5 align-items-center">
                     
-                    <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src="{{detailOfPorduct["image"]}}" alt="{{detailOfPorduct["title"]}}" /></div>
+                    <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src="{{ detailOfProduct['image'] }}" alt="{{ detailOfProduct['title'] }}" /></div>
                     <div class="col-md-6">
-                        <div class="small mb-1">{{detailOfPorduct["id"]}}</div>
-                        <h1 class="display-5 fw-bolder">{{detailOfPorduct["title"]}}</h1>
+                        <div class="small mb-1">{{ detailOfProduct["id"] }}</div>
+                        <h1 class="display-5 fw-bolder">{{detailOfProduct["title"]}}</h1>
                         <div class="fs-5 mb-5">
-                            <span class="text-decoration-line-through">{{detailOfPorduct["price"]}}</span>
-                            <span>{{detailOfPorduct["price"]}}</span>
+                            <span class="text-decoration-line-through">{{detailOfProduct["price"]}}</span>
+                            <span>{{detailOfProduct["price"]}}</span>
                         </div>
-                        <p class="lead">{{detailOfPorduct["description"]}}</p>
+                        <p class="lead">{{detailOfProduct["description"]}}</p>
                         <div class="d-flex">
                             <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 3rem" />
                             <button class="btn btn-outline-dark flex-shrink-0" type="button">
